@@ -1,0 +1,11 @@
+name = "portfolio-contact-form"
+main = "worker/contact-form.js"
+compatibility_date = "2024-01-01"
+
+# Disable workers.dev subdomain (use custom domain only)
+workers_dev = false
+
+# Routes - Worker will respond to this custom domain path
+routes = [
+  { pattern = "ryanbarbosa.com/api/contact", zone_name = "ryanbarbosa.com" }
+]
