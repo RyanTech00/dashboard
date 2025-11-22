@@ -373,14 +373,14 @@ export default function Portfolio() {
                   className="flex items-center gap-2 px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-lg transition-colors shadow-lg"
                 >
                   <Home className="w-5 h-5" />
-                  Ver Card Digital
+                  View Digital Card
                 </Link>
                 <button
                   onClick={() => scrollToSection('contact')}
                   className="flex items-center gap-2 px-6 py-3 bg-slate-800 hover:bg-slate-700 text-white font-semibold rounded-lg transition-colors border border-emerald-500/30"
                 >
                   <Mail className="w-5 h-5" />
-                  Contato
+                  Contact
                 </button>
                 <a
                   href="#"
